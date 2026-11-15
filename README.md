@@ -9,7 +9,7 @@ Automated tests for https://www.saucedemo.com, written in JavaScript with Playwr
 - Custom fixture: logs in automatically before a test
 - Cart: adding an item updates the cart badge
 - API tests: GET requests on JSONPlaceholder
-- Page Object Model: login page class used by tests
+- Page Object Model: LoginPage and InventoryPage classes used by tests
 
 ## How to run
 
