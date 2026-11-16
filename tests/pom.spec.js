@@ -5,7 +5,7 @@ test('standard user can login using POM', async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.goto();
   await loginPage.login('standard_user', 'secret_sauce');
-  await expect(page).toHaveURL(/inventry/);
+  await expect(page).toHaveURL(/inventory/);
 });
 
 test('locked out user sees an error using POM', async ({ page }) => {
