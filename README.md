@@ -2,6 +2,8 @@
 
 Automated tests for https://www.saucedemo.com, written in JavaScript with Playwright.
 
+[![Playwright Tests](https://github.com/Priyanka-1801/saucedemo-playwright/actions/workflows/playwright.yml/badge.svg)](https://github.com/Priyanka-1801/saucedemo-playwright/actions/workflows/playwright.yml)
+
 ## What is tested
 
 - Login: valid users, locked-out user, wrong password
