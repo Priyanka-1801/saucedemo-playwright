@@ -10,6 +10,7 @@ Automated tests for https://www.saucedemo.com, written in JavaScript with Playwr
 - Cart: adding an item updates the cart badge
 - API tests: GET requests on JSONPlaceholder
 - Page Object Model: LoginPage and InventoryPage classes used by tests
+- List checks: counting products with toHaveCount
 
 ## How to run
 
