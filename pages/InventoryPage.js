@@ -1,8 +1,9 @@
-class InventoryPage {
+const { BasePage } = require('./BasePage');
+
+class InventoryPage extends BasePage {
   constructor(page) {
-    this.page = page;
+    super(page);
     this.title = page.getByText('Products');
-    this.cartBadge = page.locator('[data-test="shopping-cart-badge"]');
   }
 
   async addBikeLightToCart() {
